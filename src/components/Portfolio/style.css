@@ -1,0 +1,10 @@
+.portfolio {
+    margin: 3rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.portfolio h1 {
+    margin-bottom: 3rem;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import './style.css';
 
 function Contact() {
 
@@ -37,31 +38,41 @@ function Contact() {
     }
 
     return (
-        <section>
+        <div className='contact-container d-flex justify-content-center row'>
             <h1>Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <section className='contact col-lg-4 col-md-8 col-sm-8'>
                 <div>
-                    <label htmlFor='name'>Name:</label>
-                    <input type='text' defaultValue={name} onBlur={handleChange} name='name' />
-                </div>
-                <div>
-                    <label htmlFor='email'>Email address:</label>
-                    <input type='email' defaultValue={email} onBlur={handleChange} name='email' />
-                </div>
-                <div>
-                    <label htmlFor='message'>Message:</label>
-                    <textarea name='message' defaultValue={message} onBlur={handleChange} rows='4' />
-                </div>
-
-                {errorMessage && (
-                    <div>
-                        <p className='error-text'>{errorMessage}</p>
+                <form id="contact-form" onSubmit={handleSubmit}>
+                    <div className='form-box'>
+                        <label htmlFor='name'>Name:</label>
+                        <input type='text' defaultValue={name} onBlur={handleChange} name='name' />
                     </div>
-                )}
+                    <div className='form-box'>
+                        <label htmlFor='email'>Email address:</label>
+                        <input type='email' defaultValue={email} onBlur={handleChange} name='email' />
+                    </div>
+                    <div className='form-box'>
+                        <label htmlFor='message'>Message:</label>
+                        <textarea name='message' defaultValue={message} onBlur={handleChange} rows='4' />
+                    </div>
+
+                    {errorMessage && (
+                        <div>
+                            <p className='error-text'>{errorMessage}</p>
+                        </div>
+                    )}
 
                 <button type='submit'>Submit</button>
             </form>
-        </section>
+            </div>
+
+            </section>
+
+            <section className='info col-lg-4 col-md-8 col-sm-8'>
+                <h3>Want to contact me? Fill in the boxes and I will reach out to you as soon as possible!</h3>
+            </section>
+        </div>
+
     );
 }
 

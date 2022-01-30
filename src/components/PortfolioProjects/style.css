@@ -1,0 +1,57 @@
+.project {
+    position: relative;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.project img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    background-color: #272f53;
+    border: 3px solid #272f53;
+    border-radius: 10px;
+}
+
+.project-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 97%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background: rgba(116, 116, 116, 1);
+    color: #e9e8e8;
+    border: 3px solid #272f53;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.project-info:hover {
+    opacity: 1;
+}
+
+.project-info h3,
+.project-info a {
+    color: #e9e8e8;
+    transition: color 0.5s;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.icons i {
+    margin: 0 1rem;
+    font-size: 2rem;
+}
+
+.icons i a:hover {
+    color: #272f53;
+
+}

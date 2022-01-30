@@ -1,0 +1,20 @@
+[
+    {
+        "title": "ForeCastify",
+        "description": "Forcastify is a music and weather application where you input your city, which then displays the forecast for that city and a relevant Spotify playlist to match the weather.",
+        "image": "Forecastify",
+        "githubLink": "https://james182-dang.github.io/Forecastify/"
+    },
+    {
+        "title": "Work Day Scheduler",
+        "description": "Work Day Scheduler is a productivity application that utilizes moment.js to help you keep your work day on track.",
+        "image": "WorkDayScheduler",
+        "githubLink": "https://james182-dang.github.io/workDayScheduler/"
+    },
+    {
+        "title": "NoteTaker",
+        "description": "NoteTaker is a note-taking app where you can add or remove notes to help keep track of your responsibilities. Deployed on Heroku, NoteTaker utilizes express to create the necessary routes for creating/saving, editing, or deleting your notes.",
+        "image": "NoteTaker",
+        "githubLink": "https://github.com/james182-dang/NoteTaker"
+    }
+]
