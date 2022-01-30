@@ -27,7 +27,7 @@ const App = () => {
   };
 
   return (
-    <div className='App'>
+    <div className='App' style={{backgroundColor: '#E9CE7A'}}>
       <Navigation
         currentDisplay={currentDisplay}
         setCurrentDisplay={setCurrentDisplay}
