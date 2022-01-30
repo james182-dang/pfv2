@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 import './style.css';
 
 export const CarouselItem = ({ children, width }) => {
@@ -30,7 +31,7 @@ const Carousel = ({ children }) => {
             if (!paused) {
                 updateIndex(activeIndex + 1);
             }
-        }, 2000);
+        }, 4000);
 
         return () => {
             if (interval) {
