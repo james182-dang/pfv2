@@ -1,10 +1,17 @@
 import React from 'react';
+import Carousel, { CarouselItem } from '../Carousel/Carousel';
 import './style.css';
 
 function About() {
+
     return (
         <div className='about'>
             <h2>About Me</h2>
+            <Carousel>
+                <CarouselItem>Item 1</CarouselItem>
+                <CarouselItem>Item 2</CarouselItem>
+                <CarouselItem>Item 3</CarouselItem>
+            </Carousel>
             <p className='lh-base'>
                 Hey! My name is James. I was born and raised in Nashville, Tennessee, and have always had a strong love for the beauty of this state.
                 I graduated from White House High School in 2014 and spent many years living my lifelong dream of being a musician, playing shows in Nashville and the surrounding areas.
