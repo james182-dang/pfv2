@@ -1,0 +1,14 @@
+.footer i {
+    margin: 2rem 2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 36px;
+    transition: color 0.5s;
+    color: #747474 !important
+}
+
+.footer a:hover {
+    color: #e9e8e8 !important
+}

@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Navigation from './components/Navbar';
+import Contact from './components/Contact';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+import 'react-bootstrap';
 
-function App() {
+
+const App = () => {
+
+  const [currentDisplay, setCurrentDisplay] = useState('About');
+
+  const showDisplay = () => {
+    switch (currentDisplay) {
+      case 'About':
+        return <About />;
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <Contact />;
+      case 'Resume':
+        return <Resume />;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navigation
+        currentDisplay={currentDisplay}
+        setCurrentDisplay={setCurrentDisplay}
+      />
+      <main>
+        {showDisplay(currentDisplay)}
+      </main>
+      <Footer />
     </div>
   );
 }

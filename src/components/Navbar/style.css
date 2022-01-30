@@ -1,0 +1,35 @@
+header {
+    background-color: #E9967A;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+}
+header h1 a {
+    color: #e9e8e8;
+}
+header h1 a:hover {
+    color: #272f53;
+}
+header nav {
+    margin: auto 2rem;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    padding: 0 1rem;
+}
+header nav ul li a {
+    font-size: 1rem;
+    color: #e9e8e8;
+}
+header nav ul li a:hover {
+   color: #272f53; 
+}
+header nav ul li a:focus {
+    color: #272f53; 
+}    
