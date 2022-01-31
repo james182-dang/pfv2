@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pfv2/static/css/main.06839b4f.css",
+    "main.js": "/pfv2/static/js/main.604dd84e.js",
+    "static/js/787.87821eb9.chunk.js": "/pfv2/static/js/787.87821eb9.chunk.js",
+    "static/media/James1.png": "/pfv2/static/media/James1.95b4f65208f36365cc4c.png",
+    "static/media/James2.png": "/pfv2/static/media/James2.5415f593d95c625e865a.png",
+    "static/media/James3.png": "/pfv2/static/media/James3.67e03813e38bac170f3e.png",
+    "static/media/BookSearch.png": "/pfv2/static/media/BookSearch.32c64367e6628ffe50a6.png",
+    "static/media/Forecastify.png": "/pfv2/static/media/Forecastify.750e01bd77e4ab6342bf.png",
+    "static/media/WorkDayScheduler.png": "/pfv2/static/media/WorkDayScheduler.8fbaac2d14867f5145e2.png",
+    "static/media/PasswordGenerator.png": "/pfv2/static/media/PasswordGenerator.992729f7e71b36f5ffbb.png",
+    "static/media/BudgetTracker.png": "/pfv2/static/media/BudgetTracker.7bfbf27dd49af3f539c6.png",
+    "static/media/NoteTaker.png": "/pfv2/static/media/NoteTaker.8fd8a5ddf117d23c7573.png",
+    "index.html": "/pfv2/index.html",
+    "main.06839b4f.css.map": "/pfv2/static/css/main.06839b4f.css.map",
+    "main.604dd84e.js.map": "/pfv2/static/js/main.604dd84e.js.map",
+    "787.87821eb9.chunk.js.map": "/pfv2/static/js/787.87821eb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06839b4f.css",
+    "static/js/main.604dd84e.js"
+  ]
+}
