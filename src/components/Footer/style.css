@@ -1,3 +1,7 @@
+.footer {
+    justify-content: space-between;
+}
+
 .footer i {
     margin: 2rem 2rem;
 }
@@ -6,7 +10,7 @@
     text-decoration: none;
     font-size: 36px;
     transition: color 0.5s;
-    color: #747474 !important
+    color: #E9967A !important
 }
 
 .footer a:hover {

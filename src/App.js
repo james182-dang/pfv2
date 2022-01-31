@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import Navigation from './components/Navbar';
+import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div className='App' style={{backgroundColor: '#E9CE7A'}}>
-      <Navigation
+      <Navbar
         currentDisplay={currentDisplay}
         setCurrentDisplay={setCurrentDisplay}
       />

@@ -1,7 +1,7 @@
 [
     {
         "title": "ForeCastify",
-        "description": "Forcastify is a music and weather application where you input your city, which then displays the forecast for that city and a relevant Spotify playlist to match the weather.",
+        "description": "Forcastify is a music and weather application in which you input your city, which the application takes then displays the forecast for that city and a relevant Spotify playlist to match the weather.",
         "image": "Forecastify",
         "githubLink": "https://james182-dang.github.io/Forecastify/"
     },
@@ -16,5 +16,23 @@
         "description": "NoteTaker is a note-taking app where you can add or remove notes to help keep track of your responsibilities. Deployed on Heroku, NoteTaker utilizes express to create the necessary routes for creating/saving, editing, or deleting your notes.",
         "image": "NoteTaker",
         "githubLink": "https://github.com/james182-dang/NoteTaker"
+    },
+    {
+        "title": "BudgetTracker",
+        "description": "BudgetTracker is a very simple example of a PWA, where users can track their spending habits through information stored on a Mongo server. Offline functionality allows them to update their spending without a connection, and have that updated once they regain a connection.",
+        "image": "BudgetTracker",
+        "githubLink": "https://github.com/james182-dang/budget-tracker"
+    },
+    {
+        "title": "Book-Search",
+        "description": "Book-Search is a simple book-searching application where you can search and save books you have or are interested in, with data provided about the author, covers, etc. Book-Search utilizes GraphQL instead of standard express routes.",
+        "image": "BookSearch",
+        "githubLink": "https://github.com/james182-dang/book-search"
+    },
+    {
+        "title": "Password Generator",
+        "description": "Password Generator is your standard password-generating application, in which you select a number of criteria to automatically create a password that matches that criteria.",
+        "image": "PasswordGenerator",
+        "githubLink": "https://github.com/james182-dang/PWGenerator"
     }
 ]

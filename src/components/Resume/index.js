@@ -2,7 +2,11 @@ import React from 'react';
 
 function Resume() {
     return (
-        <h1>Resume</h1>
+        <div>
+            <h1>Interested in seeing my skills?</h1>
+
+            <a href="https://www.linkedin.com/in/james-lindsey-7ab945218/">Click here to go to my LinkedIn!</a>
+        </div>
     );
 }
 

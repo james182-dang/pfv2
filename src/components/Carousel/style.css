@@ -1,5 +1,6 @@
 .carousel {
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .inner {
@@ -11,6 +12,6 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 500px;
     width: 300px;
 }
