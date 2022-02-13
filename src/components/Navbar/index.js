@@ -7,7 +7,7 @@ function Navigation(props) {
     return (
         <header className='flex-wrap'>
             <h1>
-                James Lindsey
+                <a href='#home' onClick={() =>props.setCurrentDisplay('Home')}>James Lindsey</a>
             </h1>
             <nav className='d-flex flex-wrap'>
                 <ul className='d-flex justify-content-between mb-0'>

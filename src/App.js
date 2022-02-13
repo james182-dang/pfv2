@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -11,10 +12,12 @@ import 'react-bootstrap';
 
 const App = () => {
 
-  const [currentDisplay, setCurrentDisplay] = useState('About');
+  const [currentDisplay, setCurrentDisplay] = useState('Home');
 
   const showDisplay = () => {
     switch (currentDisplay) {
+      case 'Home':
+        return <Home />;
       case 'About':
         return <About />;
       case 'Portfolio':
@@ -27,7 +30,7 @@ const App = () => {
   };
 
   return (
-    <div className='App' style={{backgroundColor: '#E9CE7A'}}>
+    <div className='App' style={{backgroundColor: '#f9f9f9'}}>
       <Navbar
         currentDisplay={currentDisplay}
         setCurrentDisplay={setCurrentDisplay}

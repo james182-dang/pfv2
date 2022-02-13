@@ -1,18 +1,26 @@
-.footer {
-    justify-content: space-between;
+footer {
+    justify-content: center;
+    background-color: #36454F;
+    height: 45px;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    bottom: 0;
 }
 
 .footer i {
-    margin: 2rem 2rem;
+    margin: 0.50rem 1rem;
 }
 
 .footer a {
     text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 36px;
     transition: color 0.5s;
-    color: #E9967A !important
+    color: #ffffff !important
 }
 
 .footer a:hover {
-    color: #e9e8e8 !important
+    color: #FFD700 !important
 }
