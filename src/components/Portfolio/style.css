@@ -3,6 +3,8 @@
     text-align: center;
     justify-content: center;
     display: flex;
+    animation: fadeIn;
+    animation-duration: 2.25s;
 }
 
 .portfolio h1 {

@@ -1,4 +1,5 @@
 import React from 'react';
+import 'animate.css';
 import './style.css';
 import image1 from '../../assets/images/home/James3.png';
 

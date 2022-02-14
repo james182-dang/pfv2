@@ -1,5 +1,6 @@
-.jumbotron {
-    border: 1px solid black;
+.home {
+    animation: fadeIn;
+    animation-duration: 2.25s;
 }
 
 .jumbotronContent {

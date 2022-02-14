@@ -4,6 +4,7 @@ import image1 from '../../assets/images/about/James1.png';
 import image2 from '../../assets/images/about/James2.png';
 import image3 from '../../assets/images/about/James3.png';
 import './style.css';
+import 'animate.css';
 
 function About() {
 
