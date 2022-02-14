@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import { BsSun } from 'react-icons/bs';
 import projects from './projects.json';
 import './style.css';
 
@@ -16,6 +17,7 @@ function PortfolioProjects() {
                         <p>{project.description}</p>
                         <div className='icons'>
                             <i><a href={project.githubLink}><FaGithub /></a></i>
+                            <i><a href={project.activeLink}><BsSun /></a></i>
                         </div>
                     </div>
                 </div>)

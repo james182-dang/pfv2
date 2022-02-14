@@ -1,4 +1,17 @@
 .resume {
+    display: flex;
+    flex-direction: column;
     animation: fadeIn;
     animation-duration: 2.25s;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeContent {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.resumeContent a {
+    text-decoration: none;
 }

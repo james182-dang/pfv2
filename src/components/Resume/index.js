@@ -5,9 +5,12 @@ import 'animate.css';
 function Resume() {
     return (
         <div className='resume'>
-            <h1>Interested in seeing my skills?</h1>
+            <div className='resumeContent'>
+                <h1>Interested in seeing my skills?</h1>
 
-            <a href="https://www.linkedin.com/in/james-lindsey-7ab945218/">Click here to go to my LinkedIn!</a>
+
+                <a href="https://drive.google.com/file/d/1E535_BAjGCHZGLR3lZ2CARVBQwPQJ9wG/view?usp=sharing" target="_blank">Click here to see my resume.</a>
+            </div>
         </div>
     );
 }

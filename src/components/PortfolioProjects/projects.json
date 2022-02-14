@@ -1,10 +1,18 @@
 [
     {
+        "title": "SouSmart",
+        "description": "SouSmart is a recipe search application where you can input ingredients that you have at home, and select from those ingredients what to search for. SouSmart pulls up recipes based on what you have, so you can find things that you can make that you may not have known about!",
+        "image": "SouSmart",
+        "githubLink": "https://github.com/james182-dang/SouSmart",
+        "activeLink": "https://sousmart.herokuapp.com"
+    },
+    {
         "title": "ForeCastify",
         "description": "Forcastify is a music and weather application in which you input your city, which the application takes then displays the forecast for that city and a relevant Spotify playlist to match the weather.",
         "image": "Forecastify",
         "githubLink": "https://james182-dang.github.io/Forecastify/"
     },
+
     {
         "title": "Work Day Scheduler",
         "description": "Work Day Scheduler is a productivity application that utilizes moment.js to help you keep your work day on track.",
