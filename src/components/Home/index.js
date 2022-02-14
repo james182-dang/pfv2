@@ -11,7 +11,7 @@ function Home() {
                 <div className='jumbotronContent'>
                     <h1>Hello!</h1>
 
-                    <h2>👋 I'm James Lindsey</h2>
+                    <h2>👋 I'm James.</h2>
 
                     <h3>I'm a full stack web developer based in Nashville, Tennessee.</h3>
 

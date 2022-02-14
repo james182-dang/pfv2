@@ -8,6 +8,7 @@ function Portfolio() {
         <section className='portfolio'>
             <div>
                 <h1>Portfolio</h1>
+                <p>Take a look at some projects I've done. Github icon opens the repo, Sunshine icon opens the deployed app.</p>
                 <PortfolioProjects />
             </div>
         </section>

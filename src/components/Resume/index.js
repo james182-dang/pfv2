@@ -9,7 +9,8 @@ function Resume() {
                 <h1>Interested in seeing my skills?</h1>
 
 
-                <a href="https://drive.google.com/file/d/1E535_BAjGCHZGLR3lZ2CARVBQwPQJ9wG/view?usp=sharing" target="_blank">Click here to see my resume.</a>
+                <a href="https://drive.google.com/file/d/1bjkXKdaDy8IXk4Ye7obgH8bWt6Ppd1ni/view?usp=sharing" target="_blank">Take a look at my resume.</a>
+
             </div>
         </div>
     );
