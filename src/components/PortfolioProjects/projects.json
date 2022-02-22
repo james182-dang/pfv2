@@ -3,44 +3,57 @@
         "title": "SouSmart",
         "description": "SouSmart is a recipe search application where you can input ingredients that you have at home, and select from those ingredients what to search for. SouSmart pulls up recipes based on what you have, so you can find things that you can make that you may not have known about!",
         "image": "SouSmart",
+        "technologies": "MongoDB, Apollo, GraphQL, React, Spoonacular API",
         "githubLink": "https://github.com/james182-dang/SouSmart",
         "activeLink": "https://sousmart.herokuapp.com"
     },
     {
         "title": "ForeCastify",
-        "description": "Forcastify is a music and weather application in which you input your city, which the application takes then displays the forecast for that city and a relevant Spotify playlist to match the weather.",
+        "description": "Forecastify is a music and weather application in which you input your city, which the application takes then displays the forecast for that city and a relevant Spotify playlist to match the weather.",
         "image": "Forecastify",
-        "githubLink": "https://james182-dang.github.io/Forecastify/"
+        "technologies": "HTML, Bootstrap, Spotify API, Openweather API, Moment.js",
+        "githubLink": "https://github.com/james182-dang/Forecastify",
+        "activeLink": "https://james182-dang.github.io/Forecastify/"
     },
 
     {
         "title": "Work Day Scheduler",
         "description": "Work Day Scheduler is a productivity application that utilizes moment.js to help you keep your work day on track.",
         "image": "WorkDayScheduler",
-        "githubLink": "https://james182-dang.github.io/workDayScheduler/"
+        "technologies": "HTML, CSS, Moment.js",
+        "githubLink": "https://github.com/james182-dang/workDayScheduler",
+        "activeLink": "https://james182-dang.github.io/workDayScheduler/"
     },
     {
         "title": "NoteTaker",
         "description": "NoteTaker is a note-taking app where you can add or remove notes to help keep track of your responsibilities. Deployed on Heroku, NoteTaker utilizes express to create the necessary routes for creating/saving, editing, or deleting your notes.",
         "image": "NoteTaker",
-        "githubLink": "https://github.com/james182-dang/NoteTaker"
+        "technologies": "HTML, CSS, Express, API",
+        "githubLink": "https://github.com/james182-dang/NoteTaker",
+        "activeLink": "https://enigmatic-reaches-58040.herokuapp.com/"
     },
     {
         "title": "BudgetTracker",
         "description": "BudgetTracker is a very simple example of a PWA, where users can track their spending habits through information stored on a Mongo server. Offline functionality allows them to update their spending without a connection, and have that updated once they regain a connection.",
         "image": "BudgetTracker",
-        "githubLink": "https://github.com/james182-dang/budget-tracker"
+        "technologies": "HTML, CSS, MongoDB, Mongoose, IDB, PWA",
+        "githubLink": "https://github.com/james182-dang/budget-tracker",
+        "activeLink": "https://james-budget-tracker.herokuapp.com/"
     },
     {
         "title": "Book-Search",
         "description": "Book-Search is a simple book-searching application where you can search and save books you have or are interested in, with data provided about the author, covers, etc. Book-Search utilizes GraphQL instead of standard express routes.",
         "image": "BookSearch",
-        "githubLink": "https://github.com/james182-dang/book-search"
+        "technologies": "React, Apollo, GraphQL, MongoDB",
+        "githubLink": "https://github.com/james182-dang/book-search",
+        "activeLink": "https://book-search-james.herokuapp.com/"
     },
     {
         "title": "Password Generator",
         "description": "Password Generator is your standard password-generating application, in which you select a number of criteria to automatically create a password that matches that criteria.",
         "image": "PasswordGenerator",
-        "githubLink": "https://github.com/james182-dang/PWGenerator"
+        "technologies": "HTML, CSS, JavaScript",
+        "githubLink": "https://github.com/james182-dang/PWGenerator",
+        "activeLink": "https://james182-dang.github.io/PWGenerator/"
     }
 ]

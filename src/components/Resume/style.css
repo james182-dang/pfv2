@@ -7,9 +7,34 @@
     align-items: center;
 }
 
+.skills {
+    margin: 2rem ;
+}
+
+.card.skillset-card {
+    flex-direction: row;
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.card-body.skillset-card-body {
+    flex-direction: row;
+    width: fit-content;
+}
+
+.card-text.skillset-card-text {
+    margin: 0.5rem 1rem;
+    display: inline-block;
+    
+}
+
 .resumeContent {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .resumeContent a {

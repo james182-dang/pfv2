@@ -17,12 +17,12 @@ function About() {
                 <CarouselItem><img src={image3} /></CarouselItem>
             </Carousel>
             <p className='aboutText'>
-                Hey! My name is James. I was born and raised in Nashville, Tennessee, and have always had a strong love for the beauty of this state.
-                I graduated from White House High School in 2014 and spent many years living my lifelong dream of being a musician, playing shows in Nashville and the surrounding areas.
-                When the pandemic began, I decided to broaden my skillsets and took the plunge into learning web development. I am now a Vanderbilt-certified full-stack web developer with experience
-                in many front-end and back-end technologies.
-
-                I have always had a passion for technology and have enjoyed development immensely.
+                Hey! My name is James. I was born and raised in Nashville, Tennessee, and have always had a strong passion
+                for technology. I am a Vanderbilt Certified full stack web developer looking to utilize my skills in a front-end, back-end,
+                or full stack web development role. My projects are built utilizing todays top technologies such as React,
+                GraphQL, Node, MongoDB, SQL, and many more. I've built many projects ranging from PWA's, SPA's, and multi-page applications
+                utilizing databases and user interactivity. I'm always learning and growing my skills! If you would like to reach out,
+                check out the contact tab and send me an email!
             </p>
         </div>
     );
