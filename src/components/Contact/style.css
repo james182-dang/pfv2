@@ -1,58 +1,17 @@
-.contact-container {
-    margin-top: 3rem;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    animation: fadeIn;
-    animation-duration: 2.25s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.contact {
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn;
+  animation-duration: 2.25s;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactContent {
-    text-align: center;
-    margin-top: 3rem;
+  text-align: center;
+  margin-top: 200px;
 }
 
-.feedback-input {
-    color:white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight:500;
-    font-size: 18px;
-    border-radius: 5px;
-    line-height: 22px;
-    background-color: transparent;
-    border:2px solid #36454F;
-    transition: all 0.3s;
-    padding: 13px;
-    margin-bottom: 15px;
-    width:100%;
-    box-sizing: border-box;
-    outline:0;
-  }
-  
-  .feedback-input:focus { border:2px solid #36454F; }
-  
-  textarea {
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
-  }
-  
-  [type="submit"] {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    width: 30%;
-    background:#36454F;
-    border-radius:5px;
-    border:0;
-    cursor:pointer;
-    color:white;
-    font-size:18px;
-    padding-top:10px;
-    padding-bottom:10px;
-    transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
-  }
+.contactContent h5 {
+  text-decoration: none;
+}

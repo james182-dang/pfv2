@@ -8,21 +8,23 @@ function Home() {
     return (
         <div className='home'>
             <div className='jumbotron'>
-                <div className='jumbotronContent'>
-                    <h1>Hello!</h1>
+                <div className='row'>
+                    <div className='jumbotronContent'>
+                        <h1>Hello!</h1>
 
-                    <h2>👋 I'm James.</h2>
+                        <h2>👋 I'm James.</h2>
 
-                    <h3>I'm a full stack web developer based in Nashville, Tennessee.</h3>
+                        <h3>I'm a full stack web developer based in Nashville, Tennessee.</h3>
 
-                    <p>I create full stack applications using todays
-                        top technologies. If I'm not coding, you'd likely find me
-                        creating music, obsessing over The Legend of Zelda,
-                        or taking care of my corgi.
-                    </p>
-                </div>
-                <div className='jumbotronImg'>
-                    <img src={image1} />
+                        <p>I create full stack applications using todays
+                            top technologies. If I'm not coding, you'd likely find me
+                            creating music, obsessing over The Legend of Zelda,
+                            or taking care of my corgi.
+                        </p>
+                    </div>
+                    <div className='jumbotronImg'>
+                        <img src={image1} />
+                    </div>
                 </div>
             </div>
         </div>

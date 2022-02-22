@@ -3,14 +3,19 @@
     animation-duration: 2.25s;
 }
 
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .jumbotronContent {
     text-align: center;
     line-height: 1.5;
     padding-top: 7.5rem;
     padding-left: 15rem;
     float: left;
-    max-width: 35rem;
-    width: 30%;
+    max-width: 25%;
 }
 
 
