@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pfv2/static/css/main.dbf7aecb.css",
-    "main.js": "/pfv2/static/js/main.95c5793a.js",
+    "main.css": "/pfv2/static/css/main.3a0d9f4c.css",
+    "main.js": "/pfv2/static/js/main.e0444381.js",
     "static/js/787.87821eb9.chunk.js": "/pfv2/static/js/787.87821eb9.chunk.js",
     "static/media/James1.png": "/pfv2/static/media/James1.95b4f65208f36365cc4c.png",
     "static/media/James3.png": "/pfv2/static/media/James3.67e03813e38bac170f3e.png",
@@ -14,12 +14,12 @@
     "static/media/BudgetTracker.png": "/pfv2/static/media/BudgetTracker.7bfbf27dd49af3f539c6.png",
     "static/media/NoteTaker.png": "/pfv2/static/media/NoteTaker.8fd8a5ddf117d23c7573.png",
     "index.html": "/pfv2/index.html",
-    "main.dbf7aecb.css.map": "/pfv2/static/css/main.dbf7aecb.css.map",
-    "main.95c5793a.js.map": "/pfv2/static/js/main.95c5793a.js.map",
+    "main.3a0d9f4c.css.map": "/pfv2/static/css/main.3a0d9f4c.css.map",
+    "main.e0444381.js.map": "/pfv2/static/js/main.e0444381.js.map",
     "787.87821eb9.chunk.js.map": "/pfv2/static/js/787.87821eb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbf7aecb.css",
-    "static/js/main.95c5793a.js"
+    "static/css/main.3a0d9f4c.css",
+    "static/js/main.e0444381.js"
   ]
 }
