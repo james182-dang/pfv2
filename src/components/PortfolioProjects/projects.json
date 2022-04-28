@@ -1,5 +1,13 @@
 [
     {
+        "title": "PlayTrack",
+        "description": "PlayTrack is a massive passion project. PlayTrack is social media site for casual gaming where you can keep track of your completed games, post reviews, and connect with your friends.",
+        "image": "PlayTrack",
+        "technologies": "MongoDB, Apollo, GraphQL, React, IGDB API, Cloudinary",
+        "githubLink": "https://github.com/james182-dang/PlayTrack",
+        "activeLink": "https://playtrackgames.herokuapp.com"
+    },
+    {
         "title": "SouSmart",
         "description": "SouSmart is a recipe search application where you can input ingredients that you have at home, and select from those ingredients what to search for. SouSmart pulls up recipes based on what you have, so you can find things that you can make that you may not have known about!",
         "image": "SouSmart",
